@@ -2,3 +2,7 @@
 .col-xs-12 button {
   margin-right: 5px;
 }
+
+.routing-links {
+  cursor: pointer
+}
