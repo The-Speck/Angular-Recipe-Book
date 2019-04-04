@@ -22,7 +22,7 @@
       </button>
       <ul class="dropdown-menu">
         <li><a (click)="addToShoppingList()" class="routing-links">Add to Shopping List</a></li>
-        <li><a class="routing-links">Edit Recipe</a></li>
+        <li><a class="routing-links" [routerLink]="['edit']">Edit Recipe</a></li>
         <li><a class="routing-links">Delete Recipe</a></li>
       </ul>
     </div>
